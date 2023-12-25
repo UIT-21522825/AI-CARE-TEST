@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 export default function Login() {
   const navigate = useNavigate();
   const googleOnclick = async function () {
-    const url = 'http://localhost:8080/google';
+    const url = 'https://ai-care-be.onrender.com/google';
     window.location.href = url;
   };
 

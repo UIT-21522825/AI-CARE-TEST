@@ -1,6 +1,6 @@
 import axios from 'axios';
 const instance = axios.create({
-    baseURL: 'http://localhost:8080',
+    baseURL: 'https://ai-care-be.onrender.com',
 });
 
 export async function registerUser(user) {

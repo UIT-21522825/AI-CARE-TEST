@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance1 = axios.create({
-  baseURL: 'http://localhost:8080',
+  baseURL: 'https://ai-care-be.onrender.com',
 });
 export async function createPost(form, _id) {
   try {
