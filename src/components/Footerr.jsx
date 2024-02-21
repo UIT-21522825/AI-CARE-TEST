@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
 
         <div className='flex justify-center p-4'>
-          <p>© 2023 AICARE. Đã đăng ký Bản quyền.</p>
+          <p>© 2023 AICARE. Đã đăng ký Bản quyền. Lê Thị Thanh Tâm</p>
         </div>
       </div>
     </div>
